@@ -108,6 +108,35 @@ Grad-CAM visualizations confirm that the model focuses on flame and smoke region
 - Scikit-learn
 
 ---
+## Models Used
+ - FireNet-CNN (Proposed) : Custom CNN (5 convolution blocks) , ~2.7M parameters ,Designed specifically for fire detection
+
+ - VGG-16 (Baseline) : Pretrained ImageNet model , ~138M parameters , Used only for comparison
+
+📈 Test Performance
+| Model       | Accuracy   | Precision  | Recall     | F1-score   |
+| ----------- | ---------- | ---------- | ---------- | ---------- |
+| FireNet-CNN | **95.53%** | **93.91%** | **97.37%** | **95.61%** |
+| VGG-16      | 94.00%     | 92.38%     | 95.79%     | 94.06%     |
+
+
+---
+## Confusion Matrix
+
+## VGG-16
+
+<img width="378" height="393" alt="image" src="https://github.com/user-attachments/assets/62db1e1c-838d-4c82-a47b-fd76f0ce4a60" />
+
+
+
+
+
+## FireNet-CNN
+
+<img width="444" height="393" alt="image" src="https://github.com/user-attachments/assets/24458de1-7a13-46e2-9bde-365191cf788c" />
+
+
+
 
 ## Future Work
 - Synthetic data generation using diffusion models
