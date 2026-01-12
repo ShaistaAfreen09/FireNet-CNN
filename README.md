@@ -94,10 +94,6 @@ Grad-CAM visualizations confirm that the model focuses on flame and smoke region
 
 ---
 
----
-
-
----
 
 ##  Technologies Used
 - Python
