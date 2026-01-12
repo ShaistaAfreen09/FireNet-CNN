@@ -20,6 +20,7 @@ This work is a complete end-to-end reproduction of a published research paper us
 ## Dataset Information
 
 The original research paper does not provide a downloadable dataset. Therefore, publicly available forest fire image datasets were used.
+DATASET : " https://data.mendeley.com/datasets/gjmr63rz2r/1 "
 
 ### Dataset Summary
 | Category | Images |
